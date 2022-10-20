@@ -28,6 +28,9 @@ def adminclick_view(request):
     return HttpResponseRedirect('adminlogin')
 
 
+
+#extra code
+
 def customer_signup_view(request):
     userForm=forms.CustomerUserForm()
     customerForm=forms.CustomerForm()
