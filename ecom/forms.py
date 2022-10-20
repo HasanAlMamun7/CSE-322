@@ -3,6 +3,9 @@ from django.contrib.auth.models import User
 from . import models
 
 
+
+
+# some changes
 class CustomerUserForm(forms.ModelForm):
     class Meta:
         model=User
